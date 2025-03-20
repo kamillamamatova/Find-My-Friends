@@ -18,3 +18,11 @@ print("Valeria's location is", VLat, ", ", VLong, ".\n")
 #Find the difference
 KandA = ((KLat - ALat) / (KLong - ALong))
 KandV = ((KLat - VLat) / (KLong - VLong))
+
+#Which friend is the furthest away?
+if(KandA > KandV):
+  print("Aseel is the furthest away from me.")
+elif(KandA < KandV):
+  print("Valeria is the furthest away from me.")
+else:
+  print("There are both the same distance away from me.")
