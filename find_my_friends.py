@@ -14,3 +14,7 @@ VLong = float(VLocation[1])
 print("My location is", KLat, ", ", KLong, ".\n")
 print("Aseel's location is", ALat, ",", ALong, ".\n")
 print("Valeria's location is", VLat, ", ", VLong, ".\n")
+
+#Find the difference
+KandA = ((KLat - ALat) / (KLong - ALong))
+KandV = ((KLat - VLat) / (KLong - VLong))
