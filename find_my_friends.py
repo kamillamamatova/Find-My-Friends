@@ -19,7 +19,7 @@ print("Valeria's location is", VLat, ", ", VLong, ".\n")
 KandA = ((KLat - ALat) / (KLong - ALong))
 KandV = ((KLat - VLat) / (KLong - VLong))
 
-#Which friend is the furthest away?
+# Which friend is the furthest away?
 if(KandA > KandV):
   print("Aseel is the furthest away from me.")
 elif(KandA < KandV):
