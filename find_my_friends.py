@@ -10,7 +10,7 @@ VLocation = ('27.947420', '-82.458778')
 VLat = float(VLocation[0])
 VLong = float(VLocation[1])
 
-#Print the locations of all my friends
+# Print the locations of all my friends
 print("My location is", KLat, ", ", KLong, ".\n")
 print("Aseel's location is", ALat, ",", ALong, ".\n")
 print("Valeria's location is", VLat, ", ", VLong, ".\n")
